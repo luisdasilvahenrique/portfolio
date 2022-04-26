@@ -9,6 +9,11 @@
     <!-- estilização -->
     <link rel="stylesheet" href="styles.css">
 
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -28,8 +33,6 @@
               <li><a class="title" href="#home">Início</a></li>
               <li><a class="title" href="#about">Sobre mim</a></li>
               <li><a class="title" href="#services">Projetos</a></li>
-              <!-- <li><a class="title" href="#testimonials">Depoimentos</a></li>
-              <li><a class="title" href="#contact">Contato</a></li> -->
             </ul>
           </div>
           <!-- /menu -->
@@ -74,24 +77,18 @@
         <div class="container grid">
           <div class="image">
             <img
-              src="[adicionar foto]"
+              src="assets/personagem.png"
               alt="3 mulheres sorrindo"
             />
           </div>
           <div class="text">
             <h2 class="title">Sobre mim</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Necessitatibus deleniti perferendis vel molestiae soluta, quaerat
-              beatae dicta ducimus praesentium architecto harum dolorum
-              distinctio illo earum assumenda itaque. Omnis, quam repellat.
+              Me chamo <strong>Luís Henrique</strong> tenho 21 anos e sou formado em técnico de informática pela EEEP Professor Plácido Aderaldo Castelo. Em 2020 comecei o curso de <strong>Redes de computadores</strong> na Universidade Federal do Ceará.
             </p>
             <br />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-              illum ratione impedit quae eum quis adipisci asperiores, est
-              doloribus distinctio excepturi minima eius dolore! Perferendis
-              laborum illo aspernatur repellendus ipsum.
+              Sempre gostei de desafios, sou skatista desde os 11 anos, e isso sempre me ajudou a querer novos desafios e me arriscar no desconhecido.
             </p>
            
           </div>
@@ -100,5 +97,53 @@
 
       <div class="divider-2"></div>
 
+      <!-- SERVICES -->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Projetos</h2>
+            <p class="subtitle">
+              Apresento-lhes alguns de meus <strong>Projetos</strong> que venho acompanhando por cursos ou até por estudos próprios.
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="title">Terapia capilar</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="title">Cortes</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-cosmetic"></i>
+              <h3 class="title">Tratamentos</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                asperiores
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+      
+
+       <!-- swiper -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+      <script src="main.js"></script>
 </body>
 </html>
