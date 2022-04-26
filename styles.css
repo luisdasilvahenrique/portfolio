@@ -318,7 +318,7 @@ nav.show div.icon-close {
   position: relative;
 }
 
-#about .image::before {
+/* #about .image::before {
   content: '';
   height: 100%;
   width: 100%;
@@ -327,7 +327,7 @@ nav.show div.icon-close {
   top: -8.3%;
   left: -33%;
   z-index: 0;
-}
+} */
 
 #about .image img {
   position: relative;
